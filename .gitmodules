@@ -1,0 +1,3 @@
+[submodule "nightfly.yazi"]
+	path = flavors/nightfly.yazi
+	url = git@github.com:tkapias/nightfly.yazi.git
