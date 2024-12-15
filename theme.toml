@@ -1,4 +1,5 @@
-'$schema' = 'https://yazi-rs.github.io/schemas/theme.json'
-
 [flavor]
-use = "nightfly"
+use = "rose-pine"
+
+[status]
+normal_main = { fg = "#e4e4e4", bg = "black" }
