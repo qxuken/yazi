@@ -3,7 +3,7 @@
 </div>
 
 <h3 align="center">
-    Kanagawa Flavor for <a href="https://github.com/sxyazi/yazi">Yazi</a>
+	Catppuccin Mocha Flavor for <a href="https://github.com/sxyazi/yazi">Yazi</a>
 </h3>
 
 ## 👀 Preview
@@ -12,22 +12,22 @@
 
 ## 🎨 Installation
 
-```bash
-ya pack -a dangooddd/kanagawa
+```sh
+ya pack -a yazi-rs/flavors:catppuccin-mocha
 ```
 
 ## ⚙️ Usage
 
-> [!Note]
-> To achieve the look like in the screenshot you also need to install
-> [full-border](https://github.com/yazi-rs/plugins/tree/main/full-border.yazi) plugin!
-
-Add these lines to your `theme.toml` configuration file to use it:
+Set the content of your `theme.toml` to enable it as your _dark_ flavor:
 
 ```toml
 [flavor]
-dark = "kanagawa"
+dark = "catppuccin-mocha"
 ```
+
+Make sure your `theme.toml` doesn't contain anything other than `[flavor]`, unless you want to override certain styles of this flavor.
+
+See the [Yazi flavor documentation](https://yazi-rs.github.io/docs/flavors/overview) for more details.
 
 ## 📜 License
 
