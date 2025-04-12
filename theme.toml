@@ -1,5 +1,3 @@
 [flavor]
-use = "rose-pine"
-
-[status]
-normal_main = { fg = "#e4e4e4", bg = "black" }
+dark = "kanagawa"
+light = "kanagawa-lotus"
